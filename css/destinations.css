@@ -10,10 +10,11 @@
   gap: 24px;
 }
 
+.destinations .item header h4 {
+  margin: 24px 0;
+}
+
 .destinations .item p {
-  font-size: 20px;
-  font-weight: var(I--text-weight);
-  line-height: 32px;
   margin-bottom: 24px;
 }
 
