@@ -1,3 +1,11 @@
+.payments {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.space {
+  margin-top: 104px;
+}
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -5,15 +13,6 @@
   height: 460px;
   margin-top: 24px;
   width: 100%;
-}
-
-.payments .content-container {
-  display: flex;
-  /* flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  width: 312px;
-  align-items: center; */
 }
 
 .payments .content-container .image-gallery .image.first {
@@ -36,6 +35,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .payments {
+    width: 648px;
+  }
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet.png) no-repeat;
     background-size: cover;
@@ -56,11 +58,19 @@
   .payments .content-container {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
   }
   .payments .content-container .text-content {
     width: 360px;
   }
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments {
+    width: 900px;
   }
 }
