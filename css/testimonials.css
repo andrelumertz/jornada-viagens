@@ -1,6 +1,10 @@
 .testimonial {
   width: 312px;
-  margin: 0 auto 88px;
+  margin: 88px auto 88px;
+}
+
+.testimonial {
+  margin-top: 88px;
 }
 
 .testimonial-container {
