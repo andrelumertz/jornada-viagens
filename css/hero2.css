@@ -1,4 +1,4 @@
-.hero-img {
+.hero2-img {
   width: 100%; /* ← ocupa toda a largura disponível */
   height: 400px; /* ← altura fixa */
   background: url(../img/hero2-mobile.jpg) no-repeat;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero2-img {
     height: 620px; /* ← altura fixa */
     background: url(../img/hero2-tablet.jpg) no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero2-img {
     height: 620px; /* ← altura fixa */
     background: url(../img/hero2-desk.png) no-repeat;
     background-size: cover;
