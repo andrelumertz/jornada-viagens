@@ -1,6 +1,4 @@
-/* ===============================
-   TESTIMONIAL SECTION
-================================= */
+
 
 .testimonial {
   margin-bottom: 104px;
@@ -29,7 +27,7 @@
   justify-content: center;
 }
 
-/* Cada depoimento */
+
 .testimonial-container article {
   flex: 1 1 300px; /* base 300px */
   max-width: 350px; /* limita no desktop */
@@ -42,14 +40,14 @@
   justify-content: space-between;
 }
 
-/* Texto do depoimento */
+
 .testimonial-container article header p {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 16px;
 }
 
-/* Rodapé com perfil */
+
 .testimonial-container footer {
   display: flex;
   align-items: center;
@@ -57,7 +55,7 @@
   margin-top: 16px;
 }
 
-/* Imagem do perfil */
+
 .testimonial-container footer img {
   width: 70px;
   height: 70px;
@@ -65,22 +63,20 @@
   object-fit: cover;
 }
 
-/* Nome */
+
 .testimonial-container footer .profile-content h3 {
   font-size: 18px;
   font-weight: var(--title-weight);
   margin: 0 0 6px;
 }
 
-/* Estrelas */
+
 .testimonial-container footer .profile-content .rating .star {
   font-size: 20px;
   color: var(--secondary-color);
 }
 
-/* ===============================
-   TABLET (768px+)
-================================= */
+
 
 @media screen and (min-width: 768px) {
   .testimonial-container {
@@ -88,9 +84,7 @@
   }
 }
 
-/* ===============================
-   DESKTOP (1024px+)
-================================= */
+
 
 @media screen and (min-width: 1024px) {
   .testimonial-container {
